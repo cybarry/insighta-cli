@@ -1,0 +1,32 @@
+{
+  "name": "insighta-cli",
+  "version": "1.0.0",
+  "description": "Insighta Labs+ CLI",
+  "main": "bin/insighta.js",
+  "bin": {
+    "insighta": "./bin/insighta.js"
+  },
+  "scripts": {
+    "start": "node bin/insighta.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybarry/insighta-cli.git"
+  },
+  "keywords": [],
+  "author": "Cybarry",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/cybarry/insighta-cli/issues"
+  },
+  "homepage": "https://github.com/cybarry/insighta-cli#readme",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.3",
+    "open": "^11.0.0",
+    "ora": "^9.4.0"
+  }
+}
